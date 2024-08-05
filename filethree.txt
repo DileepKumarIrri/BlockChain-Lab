@@ -1,6 +1,0 @@
-const{Web3} = require('web3');
-const web3 = new Web3('https://mainnet.infura.io/v3/759aeb2a002c455f9683f0cd9f306fc9');
-
-web3.eth.getBlockNumber()
-  .then(console.log)
-  .catch(console.error);
