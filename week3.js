@@ -3,9 +3,8 @@ const { ETH_DATA_FORMAT, DEFAULT_RETURN_FORMAT } = require("web3");
 
 async function main() {
   // Configuring the connection to an Ethereum node
-  const web3 = new Web3(
-    new Web3.providers.HttpProvider(
-      'https://sepolia.infura.io/v3/b34856b05c7d4594aa7920bdb4949aae',//add your api key
+  const web3 = new Web3((
+      'https://sepolia.infura.io/v3/b34856b05c7d4594aa7920bdb4949aae'//add your api key
     ),
   );
 

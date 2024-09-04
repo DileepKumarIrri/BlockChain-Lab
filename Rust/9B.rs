@@ -17,7 +17,7 @@ fn main() {
     let str: String = "Hello, world!".to_string();
 
 
-    println!("Integer: {}", int);
+    println!("{}",int);
     println!("Unsigned Integer: {}", unsigned_int);
     println!("Float: {}", float);
     println!("Boolean: {}", boolean);
